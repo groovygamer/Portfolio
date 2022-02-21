@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Portfolio</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
 </head>
 
 <body>
+    <div class="container">
     <section id="apps">
         <h1>Apps</h1>
         <div class="line"></div>
@@ -16,18 +20,33 @@
         <iframe width="392" height="620" style="border: 0px;"
             src="https://studio.code.org/projects/applab/Iheoetu8zKFnPfqzyt9kq4rg6TMEwYIsrBp14XzK39Y/embed"></iframe>
     </section>
-    <section id="games">
-        <h1>Games</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/gamelab/G_y-Lvxidd0Dddyi4IhvdGgSG_679oO3WUK-qOrEJmw">
+    <h2>Click on the games to explore</h2>
+    <h5> These games are built in gamelab, click on the games to play </h5>
+    <div class="carousel slide" id="mycarousel">
+        <center>
+            <div class="carousel-inner">
+                <div class="item active">
+        <a href="https://studio.code.org/projects/gamelab/G_y-Lvxidd0Dddyi4IhvdGgSG_679oO3WUK-qOrEJmw" target="_blank">
             <img
                 src="https://studio.code.org/v3/files/G_y-Lvxidd0Dddyi4IhvdGgSG_679oO3WUK-qOrEJmw/.metadata/thumbnail.png">
         </a>
-        <a href="https://studio.code.org/projects/gamelab/OCutExZqSWTKzc7BoOAHfV0a2LvB8CS_SED7TKUB-9A">
-            <img
-                src="https://studio.code.org/v3/files/OCutExZqSWTKzc7BoOAHfV0a2LvB8CS_SED7TKUB-9A/.metadata/thumbnail.png">
+        <p>Space rider</p>
+         </div>
+         <div class="item">
+        <a href="https://studio.code.org/projects/gamelab/OCutExZqSWTKzc7BoOAHfV0a2LvB8CS_SED7TKUB-9A" target="_blank">
+            <img src="https://studio.code.org/v3/files/OCutExZqSWTKzc7BoOAHfV0a2LvB8CS_SED7TKUB-9A/.metadata/thumbnail.png">
         </a>
-    </section>
+        <p>Imposter</p>
+        </div>
+        </div>
+        <a href="#mycarousel" class="left carousel-control" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#mycarousel" class="right carousel-control" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        </center>
+        </div>
     <section id="chatbot">
         <h1>Chatbot</h1>
         <div class="line"></div>
@@ -35,6 +54,7 @@
             src="https://console.dialogflow.com/api-client/demo/embedded/6eaa24c0-689a-4a8b-9ccb-2278b0728b33">
         </iframe>
     </section>
+    </div>
 </body>
 
 </html>

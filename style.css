@@ -18,3 +18,15 @@ h1{
     background-color: black;
     margin:8px auto;
 }
+#mycarousel{
+    background:red;
+}
+#mycarousel img{
+margin-top:35px;
+height:300px;
+}
+.carousel-inner p{
+    margin-top:15px;
+    color: antiquewhite;
+    font-size:20px;
+}
